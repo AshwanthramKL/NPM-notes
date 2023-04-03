@@ -11,6 +11,9 @@ Used to install node packages / modules to the project.
 `npm help`  
 `npm`
 
+## Package.json file
+Hold all the dependencies of the application and their versions.
+
 ### CREATE PACKAGE.JSON
 `npm init`  
 `npm init -y` (or --yes)

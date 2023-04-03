@@ -1,0 +1,11 @@
+{
+  "name": "npm_notes",
+  "version": "1.0.0",
+  "description": "An \u001b[1;5C\u001b[C\u001b[C\u001b repo to hold my notes of npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
