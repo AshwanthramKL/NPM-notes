@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "date-holidays": "^3.19.0",
-    "loadash": "^1.0.0"
+    "date-holidays": "^3.19.0"
   }
 }
