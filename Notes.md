@@ -77,3 +77,6 @@ Hold all the dependencies of the application and their versions.
     "dev": "live-server"
   },
   ```
+
+  ## SEMANATIC VERSIONING
+  ![Semantic versioning](./images/semantic_versioning.png)
