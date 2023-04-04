@@ -93,7 +93,10 @@ Hold all the dependencies of the application and their versions.
     "dev": "live-server"
   },
   ```
-
+In cmd line,
+```
+npm run dev
+```
   ## SEMANATIC VERSIONING
   ![Semantic versioning](./images/semantic_versioning.png)
 
