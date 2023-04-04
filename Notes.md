@@ -17,6 +17,22 @@ Hold all the dependencies of the application and their versions.
 ### CREATE PACKAGE.JSON
 `npm init`  
 `npm init -y` (or --yes)
+```json
+{
+  "name": "npm_notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-holidays": "^3.19.0"
+  }
+}
+```
 
 ### SET DEFAULTS
 `npm config set init-author-name "YOUR NAME"`  
@@ -43,7 +59,7 @@ Hold all the dependencies of the application and their versions.
 `npm uninstall gulp-sass --save-dev`  
 `npm remove gulp --save-dev`  
 
-###INSTALL CERTAIN VERSIONS
+### INSTALL CERTAIN VERSIONS
 `npm install lodash@4.17.3 --save`  
 
 ### UPDATE
@@ -63,8 +79,8 @@ Hold all the dependencies of the application and their versions.
 `npm remove -g nodemon`  
 
 ### LISTING PACKAGES
-`npm list`
-`npm list --depth 0`
+`npm list`  
+`npm list --depth 0`  
 `npm list --depth 1`
 
 ### INSTALL LIVE-SERVER LOCALLY
@@ -80,3 +96,8 @@ Hold all the dependencies of the application and their versions.
 
   ## SEMANATIC VERSIONING
   ![Semantic versioning](./images/semantic_versioning.png)
+
+  ### Symbols before Dependencies
+* `^` - Install the latest minor version
+* `~` - Install the latest patch fix with the same minor version
+* `*` - Install the latest version(major, minor and patch)
