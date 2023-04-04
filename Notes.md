@@ -3,6 +3,31 @@
 Requires *NodeJS*.  
 Used to install node packages / modules to the project.  
 
+# Table of Contents
+
+  - [Brad Traversy commands](#brad-traversy-commands)
+    - [GET VERSION](#get-version)
+    - [GET HELP](#get-help)
+    - [Package.json file](#packagejson-file)
+    - [CREATE PACKAGE.JSON](#create-packagejson)
+    - [SET DEFAULTS](#set-defaults)
+    - [GET DEFAULTS](#get-defaults)
+    - [REMOVE DEFAULTS](#remove-defaults)
+    - [INSTALLING LOCAL PACKAGES](#installing-local-packages)
+    - [MOVE TO ANOTHER FOLDER](#move-to-another-folder)
+    - [REMOVING MODULES](#removing-modules)
+    - [INSTALL CERTAIN VERSIONS](#install-certain-versions)
+    - [UPDATE](#update)
+    - [INSTALL GLOBAL MODULE](#install-global-module)
+    - [RUN NODEMON](#run-nodemon)
+    - [FIND ROOT FOLDER](#find-root-folder)
+    - [REMOVE GLOBAL PACKAGES](#remove-global-packages)
+    - [LISTING PACKAGES](#listing-packages)
+    - [INSTALL LIVE-SERVER LOCALLY](#install-live-server-locally)
+    - [NPM SCRIPT](#npm-script)
+  - [SEMANATIC VERSIONING](#semanatic-versioning)
+    - [Symbols before Dependencies](#symbols-before-dependencies)
+
 ## Brad Traversy commands
 ### GET VERSION
 `npm -v` (or --version)
@@ -11,7 +36,7 @@ Used to install node packages / modules to the project.
 `npm help`  
 `npm`
 
-## Package.json file
+### Package.json file
 Hold all the dependencies of the application and their versions.
 
 ### CREATE PACKAGE.JSON
